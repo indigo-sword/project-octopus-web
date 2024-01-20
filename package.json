@@ -2,7 +2,7 @@
   "name": "project-octopus-web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://indigo-sword.github.io/project-octopus-web/",
+  "homepage": "https://indigo-sword.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
