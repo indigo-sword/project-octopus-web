@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/project-octopus-web/static/css/main.86a5e1fb.css",
-    "main.js": "/project-octopus-web/static/js/main.a525c26f.js",
+    "main.js": "/project-octopus-web/static/js/main.0afe3c34.js",
     "static/js/787.3e3804ad.chunk.js": "/project-octopus-web/static/js/787.3e3804ad.chunk.js",
     "index.html": "/project-octopus-web/index.html",
     "main.86a5e1fb.css.map": "/project-octopus-web/static/css/main.86a5e1fb.css.map",
-    "main.a525c26f.js.map": "/project-octopus-web/static/js/main.a525c26f.js.map",
+    "main.0afe3c34.js.map": "/project-octopus-web/static/js/main.0afe3c34.js.map",
     "787.3e3804ad.chunk.js.map": "/project-octopus-web/static/js/787.3e3804ad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.86a5e1fb.css",
-    "static/js/main.a525c26f.js"
+    "static/js/main.0afe3c34.js"
   ]
 }
