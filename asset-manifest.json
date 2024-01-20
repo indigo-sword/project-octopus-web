@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/project-octopus-web/static/css/main.86a5e1fb.css",
-    "main.js": "/project-octopus-web/static/js/main.0afe3c34.js",
-    "static/js/787.3e3804ad.chunk.js": "/project-octopus-web/static/js/787.3e3804ad.chunk.js",
-    "index.html": "/project-octopus-web/index.html",
-    "main.86a5e1fb.css.map": "/project-octopus-web/static/css/main.86a5e1fb.css.map",
-    "main.0afe3c34.js.map": "/project-octopus-web/static/js/main.0afe3c34.js.map",
-    "787.3e3804ad.chunk.js.map": "/project-octopus-web/static/js/787.3e3804ad.chunk.js.map"
+    "main.css": "/static/css/main.86a5e1fb.css",
+    "main.js": "/static/js/main.21c9ba09.js",
+    "static/js/787.3e3804ad.chunk.js": "/static/js/787.3e3804ad.chunk.js",
+    "index.html": "/index.html",
+    "main.86a5e1fb.css.map": "/static/css/main.86a5e1fb.css.map",
+    "main.21c9ba09.js.map": "/static/js/main.21c9ba09.js.map",
+    "787.3e3804ad.chunk.js.map": "/static/js/787.3e3804ad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.86a5e1fb.css",
-    "static/js/main.0afe3c34.js"
+    "static/js/main.21c9ba09.js"
   ]
 }
