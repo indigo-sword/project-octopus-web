@@ -1,0 +1,13 @@
+.COMPONENTS-logo {
+  width: 4vw;
+  padding: none;
+  margin: none;
+  height: auto;
+  border-radius: 1vmin;
+  transform: scale(1.2);
+}
+
+.COMPONENTS-logo:hover {
+  transform: scale(1.4);
+  transition: transform 0.2s ease-in-out;
+}

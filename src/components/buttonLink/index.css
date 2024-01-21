@@ -1,0 +1,14 @@
+.COMPONENTS-button-link {
+  font-size: 3vmin;
+  color: #f8f8f8;
+  text-decoration: none;
+  padding: 0.8vmin 4vmin;
+  border-radius: 1vmin;
+  border: 1px solid white;
+}
+
+.COMPONENTS-button-link:hover {
+  color: #000000;
+  background-color: white;
+  transition: background-color 0.5s, color 0.1s;
+}

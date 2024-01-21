@@ -1,0 +1,7 @@
+.PAGES-about {
+  display: flex;
+  flex-direction: column;
+  gap: 2vmin;
+  align-items: center;
+  height: 100vh;
+}
