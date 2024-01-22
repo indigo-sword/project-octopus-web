@@ -6,7 +6,7 @@
   height: 100vh;
 }
 
-.team-profiles {
+.PAGES-about .team-profiles {
   display: flex;
   justify-content: center;
   gap: 10vmin;

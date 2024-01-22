@@ -5,7 +5,7 @@ import Line from "../../components/line";
 import Title from "../../components/title";
 import "./index.css";
 
-const About = () => {
+const Team = () => {
   return (
     <div className="PAGES-about">
       <NavBar />
@@ -14,21 +14,21 @@ const About = () => {
 
       <div className="team-profiles">
         <TeamProfile
-          imgSrc="images/meng.jpg"
+          imgSrc="images/people/meng.jpg"
           name="Meng Chen"
-          profileLink="https://casardo-chen.github.io/"
+          gitHubLink="https://casardo-chen.github.io/"
           description="Senior at the University of Notre Dame"
         />
         <TeamProfile
-          imgSrc="images/joao.jpeg"
+          imgSrc="images/people/joao.jpeg"
           name="Joao Henares"
-          profileLink="https://github.com/jpireshe"
+          gitHubLink="https://github.com/jpireshe"
           description="Senior at the University of Notre Dame"
         />
         <TeamProfile
-          imgSrc="images/meng.jpg"
+          imgSrc="images/people/meng.jpg"
           name="Meng Chen"
-          profileLink="https://casardo-chen.github.io/"
+          gitHubLink="https://casardo-chen.github.io/"
           description="Senior at the University of Notre Dame"
         />
       </div>
@@ -36,4 +36,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Team;

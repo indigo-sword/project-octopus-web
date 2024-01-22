@@ -1,11 +1,4 @@
-.team-profile-pic {
-  width: 20vh;
-  height: 20vh;
-  border-radius: 50%;
-  margin-bottom: 2vh;
-}
-
-.team-profile {
+.COMPONENTS-profile {
   color: white;
   text-align: center;
   font-size: 2vmin;
@@ -13,4 +6,17 @@
   flex-direction: column;
   align-items: center;
   gap: 1vh;
+}
+
+.COMPONENTS-profile .pic {
+  width: 20vh;
+  height: 20vh;
+  border-radius: 50%;
+  margin-bottom: 2vh;
+}
+
+.COMPONENTS-profile .icon {
+  width: 3vh;
+  height: 3vh;
+  border-radius: 50%;
 }
