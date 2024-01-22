@@ -1,0 +1,6 @@
+.COMPONENTS-line {
+  height: 0.2vh;
+  width: 75vw;
+  margin: 10px 0;
+  border-radius: 10px;
+}

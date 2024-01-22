@@ -14,3 +14,15 @@ body {
   );
   height: 100vh;
 }
+
+h1 {
+  color: white;
+  font-size: 5vmin;
+  margin: 0;
+}
+
+.PAGES-about p {
+  color: white;
+  font-size: 3vmin;
+  margin: 0;
+}

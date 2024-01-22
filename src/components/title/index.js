@@ -1,8 +1,8 @@
 import React from "react";
 import "./index.css";
 
-const NavBar = () => {
-  return <div className="COMPONENTS-title">Project Octopus</div>;
+const Title = ({ text }) => {
+  return <div className="COMPONENTS-title">{text}</div>;
 };
 
-export default NavBar;
+export default Title;

@@ -2,12 +2,12 @@ import React from "react";
 import "./index.css";
 import { Link } from "react-router-dom";
 
-const ClickableText = ({ text, to, color }) => {
+const ClickableText = ({ text, to, color, size }) => {
   return (
     <Link
-      to={to}
+      to={to || "/"}
       className="COMPONENTS-clickable-text"
-      style={{ color: color }}
+      style={{ color: color || "black", fontSize: size || "3vh" }}
     >
       {text}
     </Link>

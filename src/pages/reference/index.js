@@ -4,7 +4,7 @@ import NavBar from "../../components/navbar";
 import ButtonLink from "../../components/buttonLink";
 import Title from "../../components/title";
 
-const Home = () => {
+const Reference = () => {
   return (
     <div className="PAGES-home">
       <NavBar />
@@ -14,4 +14,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Reference;
