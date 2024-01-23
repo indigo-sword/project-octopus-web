@@ -26,9 +26,9 @@ const Team = () => {
           description="Senior at the University of Notre Dame"
         />
         <TeamProfile
-          imgSrc="images/people/meng.jpg"
-          name="Meng Chen"
-          gitHubLink="https://casardo-chen.github.io/"
+          imgSrc="images/people/ziang.jpg"
+          name="Ziang Tong"
+          gitHubLink="https://dannytds.github.io/"
           description="Senior at the University of Notre Dame"
         />
       </div>
