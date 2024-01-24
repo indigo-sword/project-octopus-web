@@ -22,7 +22,7 @@ const Team = () => {
         <TeamProfile
           imgSrc="images/people/joao.jpeg"
           name="Joao Henares"
-          gitHubLink="https://github.com/jpireshe"
+          gitHubLink="https://jpireshe.github.io/portfolio/"
           description="Senior at the University of Notre Dame"
         />
         <TeamProfile
