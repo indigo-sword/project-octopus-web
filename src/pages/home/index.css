@@ -13,3 +13,7 @@ p {
   font-weight: 500;
   max-width: 75vw;
 }
+
+img {
+  height: 400px;
+}
