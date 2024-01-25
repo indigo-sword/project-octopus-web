@@ -12,6 +12,7 @@ body {
     #260f4d,
     #32035e
   );
+  background-attachment: fixed;
   height: 100vh;
 }
 
