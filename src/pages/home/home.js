@@ -2,6 +2,7 @@ import React from "react";
 import "./home.css";
 import NavBar from "../../components/navbar/navbar";
 import Title from "../../components/title/title";
+import Image from "../../components/image/image";
 
 const Home = () => {
   return (
@@ -34,7 +35,7 @@ const Home = () => {
         purpose of this game. For the game mechanics themselves, the group is
         still deciding on details.
       </p>
-      <img src="illustration.png" alt="project illustration"></img>
+      <Image src="illustration.png" alt="project illustration" height="800px" width="600px"/>
     </div>
   );
 };
