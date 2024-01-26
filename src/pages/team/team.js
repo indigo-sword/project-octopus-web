@@ -1,9 +1,9 @@
 import React from "react";
-import NavBar from "../../components/navbar";
-import TeamProfile from "../../components/profile";
-import Line from "../../components/line";
-import Title from "../../components/title";
-import "./index.css";
+import NavBar from "../../components/navbar/navbar";
+import TeamProfile from "../../components/profile/profile";
+import Line from "../../components/line/line";
+import Title from "../../components/title/title";
+import "./team.css";
 
 const Team = () => {
   return (

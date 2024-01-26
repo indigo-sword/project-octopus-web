@@ -1,7 +1,7 @@
 import React from "react";
-import "./index.css";
-import NavBar from "../../components/navbar";
-import Title from "../../components/title";
+import "./home.css";
+import NavBar from "../../components/navbar/navbar";
+import Title from "../../components/title/title";
 
 const Home = () => {
   return (
@@ -34,7 +34,7 @@ const Home = () => {
         purpose of this game. For the game mechanics themselves, the group is
         still deciding on details.
       </p>
-      <img src='illustration.png' alt='project illustration'></img>
+      <img src="illustration.png" alt="project illustration"></img>
     </div>
   );
 };

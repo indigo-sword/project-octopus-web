@@ -1,12 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Icon from "../../images/octopus.jpg";
-import "./index.css";
+import "./logoHome.css";
 
 const LogoHome = () => {
   return (
     <Link to="/">
-      <img src={Icon} alt="Logo" className="COMPONENTS-logo" />
+      <img src="octopus.jpg" alt="Logo" className="COMPONENTS-logo" />
     </Link>
   );
 };

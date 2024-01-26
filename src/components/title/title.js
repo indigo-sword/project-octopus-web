@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.css";
+import "./title.css";
 
 const Title = ({ text }) => {
   return <div className="COMPONENTS-title">{text}</div>;

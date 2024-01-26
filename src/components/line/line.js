@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.css";
+import "./line.css";
 
 const Line = ({ color }) => {
   color = color || "white";

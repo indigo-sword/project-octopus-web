@@ -1,7 +1,7 @@
 import React from "react";
-import "./index.css";
-import ClickableText from "../clickableText";
-import Icon from "../icon";
+import "./profile.css";
+import ClickableText from "../clickableText/clickableText";
+import Icon from "../icon/icon";
 
 function Profile({ imgSrc, name, gitHubLink, description }) {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
-import ClickableText from "../clickableText";
-import "./index.css";
-import LogoHome from "../logoHome";
+import ClickableText from "../clickableText/clickableText";
+import "./navbar.css";
+import LogoHome from "../logoHome/logoHome";
 
 const NavBar = () => {
   return (
