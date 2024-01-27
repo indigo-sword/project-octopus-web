@@ -1,7 +1,15 @@
-.PAGES-home {
-  display: flex;
-  flex-direction: column;
-  gap: 5vh;
-  align-items: center;
-  height: 100vh;
+.PAGES-reference {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    align-items: center;
+    height: 100vh;
 }
+
+
+.PAGES-reference p{
+    text-align: left;
+    color: #fff;
+  }
+  
+  

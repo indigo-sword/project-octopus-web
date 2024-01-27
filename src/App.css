@@ -22,8 +22,11 @@ h1 {
   margin: 0;
 }
 
-.PAGES-about p {
-  color: white;
-  font-size: 3vmin;
-  margin: 0;
+p {
+  text-align: left;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 500;
+  max-width: 75vw;
 }
+

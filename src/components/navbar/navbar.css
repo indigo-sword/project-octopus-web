@@ -4,7 +4,9 @@
   align-items: center;
   background-color: white;
   width: 100vw;
+  height: 8vh;
   padding: 2vmin 7vmin;
   gap: 8vmin;
   box-sizing: border-box;
+  font-family: 'Workbench', sans-serif;
 }

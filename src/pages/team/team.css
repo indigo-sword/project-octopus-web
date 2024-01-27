@@ -12,3 +12,12 @@
   gap: 10vmin;
   margin-top: 2vh;
 }
+
+
+.PAGES-about p {
+  color: white;
+  text-align: left;
+  font-size: 3vmin;
+  max-width: 75vw;
+  margin: 0;
+}
