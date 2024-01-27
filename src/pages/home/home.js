@@ -35,7 +35,7 @@ const Home = () => {
         purpose of this game. For the game mechanics themselves, the group is
         still deciding on details.
       </p>
-      <Image src="illustration.png" alt="project illustration" height="800px" width="600px"/>
+      
     </div>
   );
 };

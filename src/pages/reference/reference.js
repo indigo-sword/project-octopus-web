@@ -1,6 +1,7 @@
 import React from "react";
 import "./reference.css";
 import NavBar from "../../components/navbar/navbar";
+import Image from "../../components/image/image";
 import {Box, Drawer, CssBaseline, Toolbar, List, Divider, ListItem, ListItemButton, ListItemText, ListItemIcon} from '@mui/material';
 import {MoveToInbox, Mail} from '@mui/icons-material';
 
@@ -8,7 +9,7 @@ const Reference = () => {
   const drawerWidth = 240;
   return (
     <div className="PAGES-install">
-    <NavBar />
+      <NavBar />
       <Box sx={{ display: 'flex' }}>
         <CssBaseline />
         <Drawer
@@ -19,10 +20,10 @@ const Reference = () => {
             [`& .MuiDrawer-paper`]: { width: drawerWidth, boxSizing: 'border-box' },
           }}
         >
-          <Toolbar />
+          <Toolbar sx={{height : "8vh"}}/>
           <Box sx={{ overflow: 'auto' }}>
             <List>
-              {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
+              {['Overview', 'How to Play',  'How-to Guide'].map((text, index) => (
                 <ListItem key={text} disablePadding>
                   <ListItemButton>
                     <ListItemIcon>
@@ -35,7 +36,7 @@ const Reference = () => {
             </List>
             <Divider />
             <List>
-              {['All mail', 'Trash', 'Spam'].map((text, index) => (
+              {['Technical Overview', 'Octopus API', 'FAQs'].map((text, index) => (
                 <ListItem key={text} disablePadding>
                   <ListItemButton>
                     <ListItemIcon>
@@ -49,7 +50,7 @@ const Reference = () => {
           </Box>
         </Drawer>
         <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
-          <Toolbar />
+          <Image src="illustration.png" alt="project illustration" height="800px" width="auto"/>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Rhoncus dolor purus non

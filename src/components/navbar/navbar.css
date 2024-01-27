@@ -1,12 +1,17 @@
 .COMPONENTS-navbar {
+  position: fixed;
+  top: 0;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background-color: white;
+  background-color: rgb(0, 0, 0);
   width: 100vw;
   height: 8vh;
   padding: 2vmin 7vmin;
   gap: 8vmin;
   box-sizing: border-box;
   font-family: 'Workbench', sans-serif;
+  z-index: 1300;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }

@@ -1,4 +1,5 @@
 .PAGES-about {
+  margin-top: 16vh;
   display: flex;
   flex-direction: column;
   gap: 5vh;
