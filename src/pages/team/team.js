@@ -15,7 +15,7 @@ const Team = () => {
         We love that it allows anyone to use xyflow for their own projects, 
         and we get to see people build things with Octopus that we never would have imagined.</p>
       <Title text="Meet the Team" />
-      <Line />
+      <Line color="#b197de"/>
 
       <div className="team-profiles">
         <TeamProfile

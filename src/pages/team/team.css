@@ -7,11 +7,16 @@
   height: 100vh;
 }
 
+.PAGES-about Title {
+  animation: fadeIn 1s ease-out;
+}
+
 .PAGES-about .team-profiles {
   display: flex;
   justify-content: center;
   gap: 10vmin;
   margin-top: 2vh;
+  animation: fadeIn 1.5s ease-out;
 }
 
 
@@ -21,4 +26,5 @@
   font-size: 3vmin;
   max-width: 75vw;
   margin: 0;
+  animation: fadeIn 1.5s ease-out;
 }

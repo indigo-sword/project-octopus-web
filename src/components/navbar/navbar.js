@@ -7,9 +7,10 @@ const NavBar = () => {
   return (
     <div className="COMPONENTS-navbar">
       <LogoHome />
-      <ClickableText text="Reference" to="/reference" color="#2e0673" />
-      <ClickableText text="Install" to="/install" color="#2e0673" />
-      <ClickableText text="About Us" to="/team" color="#2e0673" />
+      <ClickableText text="Reference" to="/reference" color="#32dd98" />
+      <ClickableText text="Install" to="/install" color="#32dd98" />
+      <ClickableText text="[Game]" to="/game" color="#32dd98" />
+      <ClickableText text="About Us" to="/team" color="#32dd98" />
     </div>
   );
 };

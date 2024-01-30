@@ -2,7 +2,7 @@ import React from "react";
 import "./reference.css";
 import NavBar from "../../components/navbar/navbar";
 import Image from "../../components/image/image";
-import {Box, Drawer, CssBaseline, Toolbar, List, Divider, ListItem, ListItemButton, ListItemText, ListItemIcon} from '@mui/material';
+import {Box, Drawer, Toolbar, List, Divider, ListItem, ListItemButton, ListItemText, ListItemIcon} from '@mui/material';
 import {MoveToInbox, Mail} from '@mui/icons-material';
 
 const Reference = () => {
@@ -11,7 +11,6 @@ const Reference = () => {
     <div className="PAGES-install">
       <NavBar />
       <Box sx={{ display: 'flex' }}>
-        <CssBaseline />
         <Drawer
           variant="permanent"
           sx={{
@@ -20,7 +19,10 @@ const Reference = () => {
             [`& .MuiDrawer-paper`]: { width: drawerWidth, boxSizing: 'border-box' },
           }}
         >
-          <Toolbar sx={{height : "8vh"}}/>
+          <Toolbar sx={{
+            height : "10vh",
+            backgroundColor: "transparent",
+          }}/>
           <Box sx={{ overflow: 'auto' }}>
             <List>
               {['Overview', 'How to Play',  'How-to Guide'].map((text, index) => (

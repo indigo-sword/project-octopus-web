@@ -1,0 +1,8 @@
+.PAGES-game{
+    margin-top: 16vh;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    align-items: center;
+    height: 100vh;
+  }
