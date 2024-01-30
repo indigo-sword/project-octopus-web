@@ -21,10 +21,5 @@
 
 
 .PAGES-about p {
-  color: white;
-  text-align: left;
-  font-size: 3vmin;
-  max-width: 75vw;
-  margin: 0;
   animation: fadeIn 1.5s ease-out;
 }
