@@ -14,7 +14,8 @@ const Home = () => {
         sx={{ 
           display: "flex",
           flexDirection: "row",
-          maxWidth: "70vw",
+          Width: "70vw",
+          height: '1500px',
           borderRadius: 8,
           backgroundColor: "transparent",
           height: '1500px', 
@@ -25,6 +26,7 @@ const Home = () => {
           width: "35vw",
           display: "flex",
           flexDirection: "column",
+          minHeight: 'fit-content'
         }}>
           <Title text="Project Octopus" color="#32dd98" />
           <p>
@@ -33,6 +35,7 @@ const Home = () => {
         </div>
         <BranchOut />
       </Card>
+
       <Card 
         className="PAGES-home-card"
         sx={{ 
@@ -41,13 +44,15 @@ const Home = () => {
           height: '1500px',
           borderRadius: 8,
           backgroundColor: "#7e2ed6",
-          minHeight: 'fit-content' 
+          minHeight: 'fit-content', 
         }}>
         <div style={{ 
           padding: 16,
           gap: 8,
           display: "flex",
           flexDirection: "column",
+          minHeight: 'fit-content',
+          overflow: "auto"
           }}>
           
           <p>
