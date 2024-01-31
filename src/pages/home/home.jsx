@@ -69,7 +69,7 @@ const Home = () => {
                     </div>
                     <div
                         style={{
-                            flex: "50%",
+                            flex: "20vw",
                         }}
                     >
                         <CardMedia
@@ -102,8 +102,14 @@ const Home = () => {
             </div>
 
             <div>
-                <Title text="A project by the Indigo Sword"/>
-                    <br /> <br />
+                <p
+                    style={{
+                        marginBottom: "15px",
+                        fontSize: ".8rem",
+                    }}
+                >
+                    Copyright © 2024 by team Indigo Sword. All rights reserved.
+                </p>
             </div>
         </div>
     );
