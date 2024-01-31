@@ -1,0 +1,9 @@
+.COMPONENTS-pill-button{
+    font-size: 3vmin;
+    color: #f8f8f8;
+    text-decoration: none;
+    padding: 0.8vmin 4vmin;
+    border-radius: 1vmin;
+    border: 1px solid white;
+    background-color: #000000;
+}

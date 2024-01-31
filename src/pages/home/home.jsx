@@ -3,7 +3,7 @@ import "./home.css";
 import { Card, CardMedia } from "@mui/material";
 import NavBar from "../../components/navbar/navbar";
 import Title from "../../components/title/title";
-import BranchOut from "../../components/reactFlowDemos/branchOut/branchOut";
+import BranchOut from "../../components/reactFlowDemos/mainDemo/mainDemo";
 
 const Home = () => {
     return (
@@ -12,26 +12,18 @@ const Home = () => {
 
             <div>
                 <Card
-                    className="PAGES-home-card"
+                    className="PAGES-home-big-demo"
                     sx={{
                         display: "flex",
                         flexDirection: "row",
-                        width: "70vw",
                         borderRadius: 8,
                         backgroundColor: "transparent",
+                        paddingLeft: 24,
                     }}
+                    elevation={0}
                 >
-                    <div
-                        style={{
-                            padding: 16,
-                            gap: 8,
-                            width: "35vw",
-                            display: "flex",
-                            flexDirection: "column",
-                            minHeight: "fit-content",
-                        }}
-                    >
-                        <Title text="Project Octopus" color="#32dd98" />
+                    <div className="PAGES-home-demo-text">
+                        <Title text="Project Octopus" color="#32dd98" fontSize="8vmin" />
                         <p>
                             Build Your Interactive Story with Branches, and Play
                             Others' Stories
@@ -107,6 +99,11 @@ const Home = () => {
                     matches the purpose of this game. For the game mechanics
                     themselves, the group is still deciding on details.
                 </p>
+            </div>
+
+            <div>
+                <Title text="A project by the Indigo Sword"/>
+                    <br /> <br />
             </div>
         </div>
     );

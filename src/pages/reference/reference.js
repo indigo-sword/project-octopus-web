@@ -16,35 +16,59 @@ const Reference = () => {
           sx={{
             width: drawerWidth,
             flexShrink: 0,
-            [`& .MuiDrawer-paper`]: { width: drawerWidth, boxSizing: 'border-box' },
+            [`& .MuiDrawer-paper`]: { 
+              width: drawerWidth, 
+              boxSizing: 'border-box',
+              backgroundColor: 'transparent'
+             },
           }}
         >
           <Toolbar sx={{
-            height : "10vh",
-            backgroundColor: "transparent",
+            height : "10vh"
           }}/>
-          <Box sx={{ overflow: 'auto' }}>
+          <Box sx={{ 
+              overflow: 'auto',
+              height: "90vh",
+              backgroundColor: "black",
+             }}>
             <List>
               {['Overview', 'How to Play',  'How-to Guide'].map((text, index) => (
                 <ListItem key={text} disablePadding>
                   <ListItemButton>
-                    <ListItemIcon>
+                    <ListItemIcon 
+                    sx={{
+                      color: 'white',
+                    }}
+                    >
                       {index % 2 === 0 ? <MoveToInbox /> : <Mail />}
                     </ListItemIcon>
-                    <ListItemText primary={text} />
+                    <ListItemText 
+                      primary={text} 
+                      sx={{
+                        color: "white"
+                      }}
+                    />
                   </ListItemButton>
                 </ListItem>
               ))}
             </List>
-            <Divider />
+            <Divider sx={{ bgcolor: '#eee' }}/>
             <List>
               {['Technical Overview', 'Octopus API', 'FAQs'].map((text, index) => (
                 <ListItem key={text} disablePadding>
                   <ListItemButton>
-                    <ListItemIcon>
+                    <ListItemIcon
+                    sx={{
+                      color: 'white',
+                    }}>
                       {index % 2 === 0 ? <MoveToInbox /> : <Mail />}
                     </ListItemIcon>
-                    <ListItemText primary={text} />
+                    <ListItemText 
+                      primary={text} 
+                      sx={{
+                        color: "white"
+                      }}
+                    />
                   </ListItemButton>
                 </ListItem>
               ))}
