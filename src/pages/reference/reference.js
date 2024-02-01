@@ -2,6 +2,7 @@ import React from "react";
 import "./reference.css";
 import NavBar from "../../components/navbar/navbar";
 import Image from "../../components/image/image";
+import Footer from "../../components/footer/footer";
 import {Box, Drawer, Toolbar, List, Divider, ListItem, ListItemButton, ListItemText, ListItemIcon} from '@mui/material';
 import {MoveToInbox, Mail} from '@mui/icons-material';
 
@@ -105,6 +106,7 @@ const Reference = () => {
           </p>
         </Box>
       </Box>
+      <Footer />
     </div>
   );
 };

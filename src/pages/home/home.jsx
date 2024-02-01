@@ -4,6 +4,7 @@ import { Card, CardMedia } from "@mui/material";
 import NavBar from "../../components/navbar/navbar";
 import Title from "../../components/title/title";
 import BranchOut from "../../components/reactFlowDemos/mainDemo/mainDemo";
+import Footer from "../../components/footer/footer";
 
 const Home = () => {
     return (
@@ -100,17 +101,7 @@ const Home = () => {
                     themselves, the group is still deciding on details.
                 </p>
             </div>
-
-            <div>
-                <p
-                    style={{
-                        marginBottom: "15px",
-                        fontSize: ".8rem",
-                    }}
-                >
-                    Copyright © 2024 by team Indigo Sword. All rights reserved.
-                </p>
-            </div>
+            <Footer />
         </div>
     );
 };

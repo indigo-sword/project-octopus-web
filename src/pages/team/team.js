@@ -3,6 +3,7 @@ import NavBar from "../../components/navbar/navbar";
 import TeamProfile from "../../components/profile/profile";
 import Line from "../../components/line/line";
 import Title from "../../components/title/title";
+import Footer from "../../components/footer/footer";
 import "./team.css";
 
 const Team = () => {
@@ -37,6 +38,7 @@ const Team = () => {
           description="Senior at the University of Notre Dame"
         />
       </div>
+      <Footer />
     </div>
   );
 };
