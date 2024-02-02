@@ -10,7 +10,7 @@ const Team = () => {
   return (
     <div className="PAGES-about">
       <NavBar />
-      <Title text="How and why we keep Octopus transparent, free, and GPL3 licensed" />
+      <Title text="How and why we keep Octopus and GPL3 licensed" />
       <p>We chose the GPL3 License because we believe in Free and Open Source Software. 
         Having this license means that anyone can use, repurpose, or resell our docs, our blog posts, or our library. 
         We love that it allows anyone to use Octopus for their own projects, 
