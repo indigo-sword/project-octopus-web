@@ -24,3 +24,18 @@
   width: 25vw;
   min-height: fit-content;
 }
+
+b {
+  color: #f5f5f5;
+  font-weight: 800;
+}
+
+a {
+  color: #ce98e5;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+a:hover {
+  color: #dc4fff;
+}
