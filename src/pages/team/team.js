@@ -10,13 +10,8 @@ const Team = () => {
   return (
     <div className="PAGES-about">
       <NavBar />
-      <Title text="How and why we keep Octopus GPL3 licensed" />
-      <p>We chose the GPL3 License because we believe in Free and Open Source Software. 
-        Having this license means that anyone can use, repurpose, or resell our docs, our blog posts, or our library. 
-        We love that it allows anyone to use Octopus for their own projects, 
-        and we get to see people build things with Octopus that we never would have imagined.</p>
       <Title text="Meet the Team" />
-      <Line color="#b197de"/>
+      <Line color="#b197de" />
 
       <div className="team-profiles">
         <TeamProfile
@@ -38,6 +33,16 @@ const Team = () => {
           description="Senior at the University of Notre Dame"
         />
       </div>
+      <br></br>
+      <Title text="How and why we keep Octopus GPL3 licensed" />
+      <p>
+        We chose the GPL3 License because we believe in Free and Open Source
+        Software. Having this license means that anyone can use, repurpose, or
+        resell our docs, our blog posts, or our library. We love that it allows
+        anyone to use Octopus for their own projects, and we get to see people
+        build things with Octopus that we never would have imagined.
+      </p>
+
       <Footer />
     </div>
   );

@@ -29,6 +29,8 @@ const Game = () => {
         </p>
         <p>This is Apollo, a CyberKnight for the Bemazon company.</p>
       </Box>
+
+      <Title text="Milestone 3" />
       <Footer />
     </div>
   );
