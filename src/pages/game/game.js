@@ -31,6 +31,27 @@ const Game = () => {
       </Box>
 
       <Title text="Milestone 3" />
+      <div>
+        <video controls width="600">
+            <source src="videos/Editing.mov" type="video/mp4" />
+            Your browser does not support the video tag.
+        </video>
+      </div>
+      <p>Creating a new level with the level editor.</p>
+      <div>
+        <video controls width="600">
+            <source src="videos/Saving.mov" type="video/mp4" />
+            Your browser does not support the video tag.
+        </video>
+      </div>
+      <p>Exporting a level to file after finishing editing.</p>
+      <div>
+        <video controls width="600">
+            <source src="videos/Loading.mov" type="video/mp4" />
+            Your browser does not support the video tag.
+        </video>
+      </div>
+      <p>Loading a new level for playing, and the player is automatically added into the scene.</p>
       <Footer />
     </div>
   );
