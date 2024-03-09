@@ -33,25 +33,39 @@ const Game = () => {
       <Title text="Milestone 3" />
       <div>
         <video controls width="600">
-            <source src="videos/Editing.mov" type="video/mp4" />
-            Your browser does not support the video tag.
+          <source src="videos/Editing.mov" type="video/mp4" />
+          Your browser does not support the video tag.
         </video>
       </div>
       <p>Creating a new level with the level editor.</p>
       <div>
         <video controls width="600">
-            <source src="videos/Saving.mov" type="video/mp4" />
-            Your browser does not support the video tag.
+          <source src="videos/Saving.mov" type="video/mp4" />
+          Your browser does not support the video tag.
         </video>
       </div>
       <p>Exporting a level to file after finishing editing.</p>
       <div>
         <video controls width="600">
-            <source src="videos/Loading.mov" type="video/mp4" />
-            Your browser does not support the video tag.
+          <source src="videos/Loading.mov" type="video/mp4" />
+          Your browser does not support the video tag.
         </video>
       </div>
-      <p>Loading a new level for playing, and the player is automatically added into the scene.</p>
+      <p>
+        Loading a new level for playing, and the player is automatically added
+        into the scene.
+      </p>
+      <div>
+        <img src="server_working.png" alt="server working" />
+        <img src="server_test.png" alt="server test script running" />
+      </div>
+      <p>
+        {" "}
+        server working with server test sending requests from user's machine
+        remotely{" "}
+      </p>
+
+      <p> check more resources at the milestone 3 presentation slides :) </p>
       <Footer />
     </div>
   );
