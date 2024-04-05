@@ -4,14 +4,7 @@
 }
 
 body {
-  background-image: linear-gradient(
-    to right bottom,
-    #141414,
-    #181528,
-    #1e143b,
-    #260f4d,
-    #32035e
-  );
+  background-image: linear-gradient(to right bottom, #141414, #000000);
   background-attachment: fixed;
   height: 100vh;
 }

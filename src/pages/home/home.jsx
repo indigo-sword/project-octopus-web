@@ -24,7 +24,7 @@ const Home = () => {
           elevation={0}
         >
           <div className="PAGES-home-demo-text">
-            <Title text="Project Octopus" color="#32dd98" fontSize="8vmin" />
+            <Title text="Branches Of Fate" color="#32dd98" fontSize="8vmin" />
             <p>
               Build Your Interactive Story with Branches, and Play Others'
               Stories
@@ -42,7 +42,7 @@ const Home = () => {
             maxWidth: "90vw",
             height: "100%",
             borderRadius: 8,
-            backgroundColor: "#32035e",
+            backgroundColor: "#000000",
           }}
         >
           <div
@@ -54,10 +54,10 @@ const Home = () => {
             }}
           >
             <p>
-              <b>What is Project Octopus?</b>
+              <b>What is Branches Of Fate?</b>
             </p>
             <p>
-              Project Octopus is a <b>branch-based</b> game, where each node is
+              Branches Of Fate is a <b>branch-based</b> game, where each node is
               a level in a path (or storyline) you are playing. Designed to be a
               single-player game with online features, it allows users to create
               their own nodes and paths and share them with others - either via
@@ -67,7 +67,7 @@ const Home = () => {
               <b>What is the game like?</b>
             </p>
             <p>
-              Team Indigo Sword is developing Project Octopus to be a top-down
+              Team Indigo Sword is developing Branches Of Fate to be a top-down
               2D soulslike game, set in a medieval cyberpunk environment. You
               will play as a fallen corporate knight, who quit their job after
               realizing the company's true intentions. You will have to fight
@@ -100,7 +100,7 @@ const Home = () => {
             <CardMedia
               component="img"
               sx={{ maxHeight: "15vw", borderRadius: 8 }}
-              image="Octopus-Logo-v3.1 (1).png"
+              image="BOF_LOGO_COLOR.png"
               alt="Live from space album cover"
             />
           </div>

@@ -21,7 +21,7 @@ const Install = () => {
           width: "90vw",
           height: "25vw",
           borderRadius: 8,
-          backgroundColor: "#32035e",
+          backgroundColor: "#000000",
         }}
       >
         <div

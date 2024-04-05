@@ -34,13 +34,14 @@ const Team = () => {
         />
       </div>
       <br></br>
-      <Title text="How and why we keep Octopus GPL3 licensed" />
+      <Title text="How and why we keep Branches Of Fate GPL3 licensed" />
       <p>
         We chose the GPL3 License because we believe in Free and Open Source
         Software. Having this license means that anyone can use, repurpose, or
         resell our docs, our blog posts, or our library. We love that it allows
-        anyone to use Octopus for their own projects, and we get to see people
-        build things with Octopus that we never would have imagined.
+        anyone to use Branches Of Fate for their own projects, and we get to see
+        people build things with Branches Of Fate that we never would have
+        imagined.
       </p>
 
       <Footer />
