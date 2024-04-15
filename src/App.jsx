@@ -6,6 +6,7 @@ import Home from "./pages/home/home";
 import Install from "./pages/install/install";
 import Reference from "./pages/reference/reference";
 import Game from "./pages/game/game";
+import Contributing from "./pages/contributing/contributing";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/install" element={<Install />} />
         <Route path="/game" element={<Game />} />
         <Route path="/reference" element={<Reference />} />
+        <Route path="/contributing" element={<Contributing />} />
       </Routes>
     </HashRouter>
   );

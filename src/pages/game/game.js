@@ -21,13 +21,18 @@ const Game = () => {
       >
         <Title text="Game" />
         <p>
-          So far, we do not have a lot to show for our game. However, we have
-          arts and concepts that will be shortly released.
+          So far, we do not have a lot to show for our game. However, we are
+          focused on asset gathering and on assembling the base game together so
+          we can create a great "vanilla" or canon experience for our users. We
+          want you to have the most polished system, so we can fully focus on
+          generating arts for you guys to use on the level creator and on the
+          game itself.
+          <br />
           <img alt="gif for idle" src="Idle.gif" />
           <img alt="gif for attack" src="Walk_1.gif" />
           <img alt="gif for walk" src="Attack1.gif" />
         </p>
-        <p>This is Apollo, a CyberKnight for the Bemazon company.</p>
+        <p>This is Apollo, a CyberKnight.</p>
       </Box>
 
       <Title text="Milestone 3" />
@@ -55,17 +60,6 @@ const Game = () => {
         Loading a new level for playing, and the player is automatically added
         into the scene.
       </p>
-      <div>
-        <img src="server_working.png" alt="server working" />
-        <img src="server_test.png" alt="server test script running" />
-      </div>
-      <p>
-        {" "}
-        server working with server test sending requests from user's machine
-        remotely{" "}
-      </p>
-
-      <p> check more resources at the milestone 3 presentation slides :) </p>
       <Footer />
     </div>
   );

@@ -45,10 +45,13 @@ const Install = () => {
           <p>
             <b>Installing to contribute</b>
             <br />
-            <br /> If you want to contribute, just make sure you head to{" "}
+            <br /> If you want to contribute, just make sure you head to our
+            GitHub repos{" "}
             <a href="https://github.com/indigo-sword/project-octopus">
-              our GitHub repo.
+              project-octopus
             </a>{" "}
+            and
+            <a href="https://github.com/indigo-sword/godot-3.5"> godot-3.5 </a>
             and download our code. Make sure to have the Godot game engine
             installed alongside the right python libraries (if you are running
             the server locally). If you have any questions, feel free to ask on
